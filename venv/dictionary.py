@@ -22,3 +22,15 @@ for k,v in eggs.items():
 
 for i in eggs.items():
     print(i)
+
+# the get method
+
+picnicItems = {'apples': 5, 'cups': 2}
+'I am bringing ' + str(picnicItems.get('cups', 0)) + ' cups'
+'I am bringing ' + str(picnicItems.get('eggs', 0)) + ' eggs.'
+
+# The setdefault() Method
+
+spam = {'name': 'Pooka', 'age': 5}
+spam.setdefault('color', 'black')
+
